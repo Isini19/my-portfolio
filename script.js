@@ -30,10 +30,10 @@ navLinks.querySelectorAll('a').forEach(a => {
 
 // ── TYPING EFFECT ──
 const phrases = [
+  'MIS Underraduate · CA Candidate',
   'Business Analytics Professional',
   'Business Intelligence Enthusiast',
-  'Aspiring Data Analyst',
-  'MIS Graduate · CA Candidate',
+  'Aspiring Data Analyst', 
   'Data Storytelling & Dashboard Design',
   'IT + Finance — Bridging Both Worlds'
 ];
@@ -60,6 +60,26 @@ const revObs = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.07 });
 revealEls.forEach(el => revObs.observe(el));
+
+// ── SKILL RATING DOTS ──
+document.querySelectorAll('.sk-item').forEach(item => {
+  const tag = item.querySelector('.ski-tag');
+  const fill = item.querySelector('.ski-fill');
+  const rating = fill ? Math.max(1, Math.min(5, Math.round(Number(fill.dataset.w) / 20))) : 0;
+  const dots = document.createElement('span');
+  dots.className = 'ski-dots';
+  for (let i = 1; i <= 5; i += 1) {
+    const dot = document.createElement('span');
+    if (i <= rating) dot.classList.add('active');
+    dots.appendChild(dot);
+  }
+  if (tag) {
+    tag.insertAdjacentElement('afterend', dots);
+    tag.classList.add('visually-hidden');
+  } else {
+    item.querySelector('.ski-top').appendChild(dots);
+  }
+});
 
 // ── SKILL BARS ANIMATE ──
 const fills = document.querySelectorAll('.ski-fill');
