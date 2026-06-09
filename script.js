@@ -30,7 +30,7 @@ navLinks.querySelectorAll('a').forEach(a => {
 
 // ── TYPING EFFECT ──
 const phrases = [
-  'MIS Underraduate · CA Candidate',
+  'MIS Undergraduate · CA Candidate',
   'Business Analytics Professional',
   'Business Intelligence Enthusiast',
   'Aspiring Data Analyst', 
