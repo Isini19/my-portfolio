@@ -198,13 +198,13 @@ h1 {
 @keyframes spinRing { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
 
 .hero-photo-wrap {
-  width:200px; height:200px; border-radius:50%;
+  width:260px; height:280px; border-radius:140px;
   border:2px solid var(--teal);
   overflow:hidden; background:var(--bg3);
   box-shadow:0 0 40px rgba(20,184,166,.15);
   position:relative; z-index:2; flex-shrink:0;
 }
-.hero-photo-wrap img { width:100%; height:100%; object-fit:cover }
+.hero-photo-wrap img { width:100%; height:100%; object-fit:cover; object-position:center top; image-rendering:high-quality; }
 .photo-ph {
   width:100%; height:100%;
   display:flex; flex-direction:column;
@@ -406,20 +406,13 @@ h1 {
 .edu-tags { display:flex; flex-wrap:wrap; gap:.5rem }
 .edu-tags span { font-size:.65rem; letter-spacing:1px; text-transform:uppercase; background:var(--accent); border:1px solid var(--aline); padding:.25rem .8rem; border-radius:50px; color:var(--muted2) }
 
-/* ── RESULTS ── */
-.edu-results { display:flex; flex-wrap:wrap; gap:.6rem; margin-bottom:1rem }
-.result-item { display:flex; align-items:center; gap:.5rem; background:var(--bg4); border:1px solid var(--aline); padding:.4rem .9rem; border-radius:50px }
-.res-sub { font-size:.75rem; color:var(--muted2) }
-.res-grade { font-size:.75rem; font-weight:700; padding:.1rem .5rem; border-radius:4px }
-.res-grade.a { background:rgba(16,185,129,.15); color:#34d399 }
-.res-grade.b { background:rgba(20,184,166,.15); color:var(--teal2) }
-.res-grade.c { background:rgba(148,163,184,.1); color:var(--muted2) }
+
 /* ── CERTIFICATIONS ── */
 .cert-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-bottom:1.5rem }
 .cert-card { background:var(--bg3); border:1px solid var(--aline); border-radius:var(--r); overflow:hidden; transition:all .4s }
 .cert-card:hover { border-color:rgba(20,184,166,.4); transform:translateY(-4px) }
 .cert-img { width:100%; height:190px; overflow:hidden; background:var(--bg4) }
-.cert-img img { width:100%; height:100%; object-fit:cover; transition:.4s }
+.cert-img img { width:100%; height:100%; object-fit:contain; background:var(--bg4); transition:.4s; image-rendering:high-quality; }
 .cert-card:hover .cert-img img { transform:scale(1.04) }
 .cert-ph { width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.8rem; color:var(--teal); opacity:.25; font-size:2.5rem }
 .cert-ph span { font-size:.65rem; letter-spacing:2px; text-transform:uppercase }
