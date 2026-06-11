@@ -111,22 +111,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// ── CONTACT FORM ──
-const cForm = document.getElementById('cForm');
-if (cForm) {
-  cForm.addEventListener('submit', e => {
-    e.preventDefault();
-    const btn = cForm.querySelector('.f-submit');
-    const orig = btn.innerHTML;
-    btn.innerHTML = '<i class="fas fa-check"></i> Sent Successfully!';
-    btn.style.background = '#059669';
-    setTimeout(() => {
-      btn.innerHTML = orig;
-      btn.style.background = '';
-      cForm.reset();
-    }, 3500);
-  });
-}
+
 
 // ── PROJECT CARDS TILT ON HOVER ──
 document.querySelectorAll('.proj-card').forEach(card => {
