@@ -4,7 +4,7 @@
 
 **MIS Undergraduate · CA Candidate · Business Analytics & BI**
 
-[![Live Site](https://img.shields.io/badge/🌐%20Live%20Site-Visit%20Portfolio-14b8a6?style=for-the-badge)](https://Isini19.github.io/my-portfolio)
+[![Live Site](https://img.shields.io/badge/🌐%20Live%20Site-Visit%20Portfolio-14b8a6?style=for-the-badge)](https://github.com/Isini19/my-portfolio)
 [![GitHub](https://img.shields.io/badge/GitHub-Isini19-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Isini19)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isini%20Udara-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isini-udara-30b93b283)
 
@@ -24,7 +24,6 @@ This is my **personal portfolio website** built from scratch using HTML, CSS and
 
 - 🎨 **Deep teal & emerald dark theme** — unique, professional design
 - 💫 **Typing animation** — cycles through professional roles in the hero
-- 🔵 **Orbit words animation** — keyword tags orbiting the profile photo
 - 📜 **Scroll reveal** — sections animate into view as you scroll
 - 📊 **Animated skill bars** — business & technical skills with smooth fill effect
 - 🗂️ **Info grid** — clean about section showing degree, CA qualification, and more
@@ -97,7 +96,7 @@ No installations or dependencies needed — pure HTML, CSS and JavaScript.
 
 | Section | Description |
 |---|---|
-| 🏠 Hero | Name, typing animation, orbit words, social links |
+| 🏠 Hero | Name, typing animation, social links |
 | 👩 About | Bio, career goals, personal info grid |
 | 💡 Skills | Business skills + technical skills bars, tools grid |
 | 🗂️ Projects | Featured projects with tech tags and GitHub links |
