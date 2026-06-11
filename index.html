@@ -644,15 +644,15 @@ sectors.</p>
             </div>
           </div>
         </div>
-        <form class="contact-form reveal" id="cForm">
-          <div class="f-row">
-            <div class="fg"><label>Name</label><input type="text" placeholder="Alex Nickolas" required/></div>
-            <div class="fg"><label>Email</label><input type="email" placeholder="alex@email.com" required/></div>
-          </div>
-          <div class="fg"><label>Subject</label><input type="text" placeholder="Internship / Collaboration / Just saying hi!" required/></div>
-          <div class="fg"><label>Message</label><textarea rows="5" placeholder="Tell me about your opportunity or project..." required></textarea></div>
-          <button type="submit" class="f-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-        </form>
+        <form class="contact-form reveal" id="cForm" action="https://formspree.io/f/mojznloa" method="POST">
+  <div class="f-row">
+    <div class="fg"><label>Name</label><input type="text" name="name" placeholder="Alex Nickolas" required/></div>
+    <div class="fg"><label>Email</label><input type="email" name="email" placeholder="alex@email.com" required/></div>
+  </div>
+  <div class="fg"><label>Subject</label><input type="text" name="subject" placeholder="Internship / Collaboration / Just saying hi!" required/></div>
+  <div class="fg"><label>Message</label><textarea rows="5" name="message" placeholder="Tell me about your opportunity or project..." required></textarea></div>
+  <button type="submit" class="f-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+</form>
       </div>
     </div>
   </section>
