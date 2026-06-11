@@ -4,7 +4,7 @@
 
 **MIS Undergraduate · CA Candidate · Business Analytics & BI**
 
-[![Live Site](https://img.shields.io/badge/🌐%20Live%20Site-Visit%20Portfolio-14b8a6?style=for-the-badge)](https://github.com/Isini19/my-portfolio)
+[![Live Site](https://img.shields.io/badge/🌐%20Live%20Site-Visit%20Portfolio-14b8a6?style=for-the-badge)](https://github.com/Isini19/my-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Isini19-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Isini19)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isini%20Udara-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isini-udara-30b93b283)
 
