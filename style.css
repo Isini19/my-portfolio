@@ -198,7 +198,7 @@ h1 {
 @keyframes spinRing { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
 
 .hero-photo-wrap {
-  width:260px; height:280px; border-radius:140px;
+  width:280px; height:280px; border-radius:140px;
   border:2px solid var(--teal);
   overflow:hidden; background:var(--bg3);
   box-shadow:0 0 40px rgba(20,184,166,.15);
