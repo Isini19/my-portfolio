@@ -592,14 +592,43 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   .edu-meta { padding-right: .5rem !important; }
   .edu-yr { font-size: 1.2rem !important; }
 
-  /* Show profile photo on mobile */
-  .hero-content { display: flex !important; flex-direction: column !important; }
+   /* Show profile photo on mobile - clean layout */
+  .hero-content { 
+    display: flex !important; 
+    flex-direction: column !important; 
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .hero-left { 
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .hero-chip, .hero-desc, .hero-tags, .hero-btns, .hero-socials {
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .hero-tags { justify-content: center !important; }
+  .hero-btns { justify-content: center !important; }
   .hero-right { 
     display: flex !important; 
     order: -1 !important;
-    margin-bottom: 1.5rem !important;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-bottom: 2rem !important;
   }
-  .orbit-wrap { width: 220px !important; height: 220px !important; }
+  .orbit-wrap { 
+    width: auto !important; 
+    height: auto !important; 
+  }
   .orbit-ring { display: none !important; }
-  .hero-photo-wrap { width: 180px !important; height: 220px !important; }
+  .hero-photo-wrap { 
+    width: 160px !important; 
+    height: 200px !important; 
+    box-shadow: none !important;
+    margin: 0 auto !important;
+  }
 }
