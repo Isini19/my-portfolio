@@ -582,15 +582,21 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
 }
 
 @media (max-width: 768px) {
-  .sec { padding: 4rem 1.2rem !important; }
-  .edu-item { grid-template-columns: 60px 20px 1fr !important; }
-  .edu-card { 
-    padding: 1.2rem !important; 
-    margin-left: .6rem !important; 
-    flex-direction: column !important;
-  }
-  .edu-meta { padding-right: .5rem !important; }
-  .edu-yr { font-size: 1.2rem !important; }
+  .edu-item { 
+  grid-template-columns: 1fr !important; 
+}
+.edu-connector { display: none !important; }
+.edu-meta { 
+  display: flex !important; 
+  align-items: center !important; 
+  gap: .8rem !important; 
+  text-align: left !important; 
+  padding: 0 0 .8rem 0 !important;
+}
+.edu-to { display: none !important; }
+.edu-badge { font-size: .6rem !important; padding: .25rem .6rem !important; }
+.edu-card { margin-left: 0 !important; }
+  
 
    /* Show profile photo on mobile - clean layout */
   .hero-content { 
@@ -615,7 +621,6 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   .hero-btns { justify-content: center !important; }
   .hero-right { 
     display: flex !important; 
-    order: -1 !important;
     width: 100% !important;
     justify-content: center !important;
     margin-bottom: 2rem !important;
@@ -625,10 +630,12 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
     height: auto !important; 
   }
   .orbit-ring { display: none !important; }
+  
   .hero-photo-wrap { 
-    width: 160px !important; 
-    height: 200px !important; 
-    box-shadow: none !important;
-    margin: 0 auto !important;
-  }
+  width: 180px !important; 
+  height: 180px !important; 
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  margin: 0 auto !important;
+}
 }
