@@ -391,8 +391,8 @@ h1 {
 
 /* ── RESULTS ── */
 .edu-results { display:flex; flex-wrap:wrap; gap:.6rem; margin-bottom:1rem }
-.result-item { display:inline-flex; align-items:center; gap:.6rem; background:var(--bg4); border:1px solid var(--aline); padding:.5rem 1rem; border-radius:50px }
-.res-sub { font-size:.78rem; color:var(--muted2); white-space:nowrap }
+.result-item { display:inline-flex; align-items:center; gap:.6rem; background:var(--bg4); border:1px solid var(--aline); padding:.5rem 1rem; border-radius:50px; max-width:100% }
+.res-sub { font-size:.78rem; color:var(--muted2) }
 .res-grade { font-size:.72rem; font-weight:700; padding:.15rem .55rem; border-radius:4px; min-width:20px; text-align:center; display:inline-block }
 .res-grade.a { background:rgba(16,185,129,.15); color:#34d399 }
 .res-grade.b { background:rgba(20,184,166,.15); color:var(--teal2) }
@@ -526,6 +526,8 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   .hero-desc{font-size:.88rem}
   .hero-tags{gap:.4rem}
   .htag{font-size:.65rem; padding:.35rem .8rem}
+
+  .result-item { font-size:.7rem; padding:.4rem .8rem }
 
   /* About */
   .about-grid{grid-template-columns:1fr; gap:2rem}
