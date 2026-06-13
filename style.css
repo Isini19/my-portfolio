@@ -511,10 +511,62 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   nav,nav.stuck{padding:1rem 1.5rem}
   .nav-links,.cv-btn{display:none}
   .hbg{display:flex}
-  .sec{padding:5rem 1.5rem}
-  .hero{padding:0 1.5rem}
-  .edu-item{grid-template-columns:90px 30px 1fr}
-  .exp-item{grid-template-columns:100px 30px 1fr}
+  .sec{padding:4rem 1.2rem}
+  .hero{padding:0 1.2rem; min-height:auto}
+  .hero-content{padding:6.5rem 0 2.5rem}
+  .h1-name{font-size:clamp(2.5rem,12vw,4rem)}
+  .hero-desc{font-size:.88rem}
+  .hero-tags{gap:.4rem}
+  .htag{font-size:.65rem; padding:.35rem .8rem}
+
+  /* About */
+  .about-grid{grid-template-columns:1fr; gap:2rem}
+  .info-grid{grid-template-columns:1fr}
+  .career-card{padding:1rem}
+
+  /* Skills */
+  .skills-main-grid{grid-template-columns:1fr}
+  .sk-col{padding:1.3rem}
+  .tools-compact{padding:1.3rem}
+  .tc-row{flex-direction:column; align-items:flex-start; gap:.6rem}
+  .tc-cat{min-width:auto}
+
+  /* Projects */
+  .proj-grid{grid-template-columns:1fr}
+  .proj-card{padding:1.5rem}
+
+  /* Education */
+  .edu-item{grid-template-columns:70px 25px 1fr}
+  .edu-meta{padding-right:.8rem}
+  .edu-yr{font-size:1.3rem}
+  .edu-card{padding:1.2rem; margin-left:.8rem; flex-direction:column}
+  .edu-icon{margin-bottom:.5rem}
+  .edu-results{gap:.4rem}
+
+  /* Certifications */
   .cert-grid{grid-template-columns:1fr}
-  footer{padding:2rem 1.5rem 1rem}
+
+  /* Experience */
+  .exp-item{grid-template-columns:80px 25px 1fr}
+  .exp-left{padding-right:.8rem}
+  .exp-card{padding:1.2rem; margin-left:.8rem}
+
+  /* Leadership */
+  .lead-grid{grid-template-columns:1fr}
+  .lead-card{padding:1.5rem}
+
+  /* Contact */
+  .contact-layout{grid-template-columns:1fr; gap:2.5rem}
+  .f-row{grid-template-columns:1fr}
+
+  footer{padding:2rem 1.2rem 1rem}
+  .foot-top{flex-direction:column; gap:1.5rem; text-align:center}
+}
+
+@media(max-width:480px){
+  .sec-title{font-size:1.6rem; margin-bottom:2rem}
+  .h1-name{font-size:2.4rem}
+  .hero-chip{font-size:.65rem; padding:.4rem .9rem}
+  .hero-btns{flex-direction:column; align-items:flex-start; gap:.8rem}
+  .pc-tags span, .edu-tags span, .lead-tags span{font-size:.6rem}
 }
