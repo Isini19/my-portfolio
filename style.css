@@ -591,4 +591,15 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   }
   .edu-meta { padding-right: .5rem !important; }
   .edu-yr { font-size: 1.2rem !important; }
+
+  /* Show profile photo on mobile */
+  .hero-content { display: flex !important; flex-direction: column !important; }
+  .hero-right { 
+    display: flex !important; 
+    order: -1 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .orbit-wrap { width: 220px !important; height: 220px !important; }
+  .orbit-ring { display: none !important; }
+  .hero-photo-wrap { width: 180px !important; height: 220px !important; }
 }
