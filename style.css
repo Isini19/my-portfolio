@@ -640,10 +640,5 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   margin: 0 auto !important;
 }
 
-.cv-btn { 
-  display: none !important; 
-}
-.nav-links.mobile-open .cv-btn-mobile {
-  display: flex !important;
-}
+
 }
