@@ -517,7 +517,8 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
 }
 @media(max-width:768px){
   nav,nav.stuck{padding:1rem 1.5rem}
-  .nav-links,.cv-btn{display:none}
+  .nav-links{display:none}
+  .cv-btn{ font-size:.7rem; padding:.4rem .8rem; }
   .hbg{display:flex}
   .sec{padding:4rem 1.2rem}
   .hero{padding:0 1.2rem; min-height:auto}
