@@ -640,5 +640,185 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   margin: 0 auto !important;
 }
 
+/* ── UPDATED PROFILE PHOTO ── */
+
+.hero-photo-wrap {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--teal);
+  background: var(--bg3);
+  box-shadow: 0 0 40px rgba(20,184,166,.15);
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.hero-photo-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+/* ── SKILLS WITHOUT RATING BARS ── */
+
+.sk-item {
+  padding: .8rem 0;
+  border-bottom: 1px solid rgba(20,184,166,.07);
+}
+
+.sk-item:last-child {
+  border-bottom: none;
+}
+
+.ski-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ski-tag {
+  font-size: .65rem;
+  color: var(--teal2);
+  white-space: nowrap;
+}
+
+.ski-tag.visually-hidden {
+  display: none;
+}
+
+/* ── PROJECT CARD CONTENT ── */
+
+.pc-contrib {
+  flex-wrap: wrap;
+  line-height: 1.6;
+}
+
+/* ── CERTIFICATE IMAGES ── */
+
+.cert-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
+/* ── MOBILE PHOTO ── */
+
+@media(max-width:768px) {
+  .hero-photo-wrap {
+    width: 190px !important;
+    height: 190px !important;
+    border-radius: 50% !important;
+    margin: 0 auto;
+  }
+
+  .hero-photo-wrap img {
+    object-position: center 35%;
+  }
+}
+
+/* =====================================
+   HERO PROFILE PHOTO - ZOOMED CROP
+===================================== */
+
+.hero-photo-wrap {
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    border: 2px solid var(--teal);
+    background: var(--bg3);
+    box-shadow: 0 0 40px rgba(20,184,166,.15);
+}
+
+.hero-photo-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+
+    /* Zoom into the person */
+    transform: scale(1.85);
+    transform-origin: 50% 65%;
+}
+
+/* Keep the image within the circle */
+
+.hero-photo-wrap {
+    overflow: hidden;
+}
+
+@media(max-width:768px) {
+
+    .hero-photo-wrap {
+        width: 210px !important;
+        height: 210px !important;
+        margin: 0 auto !important;
+    }
+
+    .hero-photo-wrap img {
+        transform: scale(1.85);
+        transform-origin: 50% 65%;
+    }
+
+}
+
+/* =====================================
+   PROJECT CARD IMPROVEMENTS
+===================================== */
+
+.proj-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.proj-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.proj-card > p {
+    line-height: 1.8;
+}
+
+.pc-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.pc-contrib {
+    align-items: flex-start;
+    line-height: 1.7;
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.pc-links {
+    margin-top: .4rem;
+}
+
+.project-link-pending {
+    color: var(--muted2);
+    font-size: .75rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+@media(max-width:768px) {
+    .proj-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 }

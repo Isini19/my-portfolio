@@ -1,686 +1,1919 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Isini Udara | Business Analytics & BI</title>
-  <meta name="description" content="Isini Udara — MIS Undergraduate, Aspiring Business Analyst & BI Professional from Sri Lanka."/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Isini Udara | MIS | Business Analysis & BI</title>
+
+  <meta name="description"
+    content="Isini Udara - Management Information Systems undergraduate and CA Sri Lanka Corporate Level student interested in Business Analysis, Business Intelligence, Finance Analytics and Business Systems.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- ═══ NAV ═══ -->
-  <nav id="nav">
-    <div class="logo">IU<span>.</span></div>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#leadership">Leadership</a></li>
-      <li><a href="#contact">Contact</a></li>
-      </ul>
-      
-    <a href="Assets/IsiniCv.pdf" class="cv-btn" download><i class="fas fa-download"></i> CV</a>
-    <button class="hbg" id="hbg"><span></span><span></span><span></span></button>
-  </nav>
+<!-- NAVIGATION -->
 
-  <!-- ═══ HERO ═══ -->
-  <section class="hero" id="home">
-    <div class="hero-noise"></div>
-    <div class="hero-orb orb1"></div>
-    <div class="hero-orb orb2"></div>
-    <div class="hero-orb orb3"></div>
-    <div class="hero-content">
+<nav id="nav">
 
-      <!-- LEFT -->
-      <div class="hero-left">
-        <div class="hero-chip">
-          <span class="chip-dot"></span>
-          MIS Undergraduate · NSBM Green University
-        </div>
-        <h1>
-          <span class="h1-line1">Hi, I'm</span>
-          <span class="h1-name">Isini Udara</span>
-          <span class="h1-role"><span id="typed"></span><span class="cur">|</span></span>
-        </h1>
-        <p class="hero-desc">
-          Bridging Information Systems and Finance to build data-driven intelligence that powers real business decisions. Passionate about <strong>Business Analytics</strong>, <strong>Business Intelligence</strong>, and <strong>Project Management</strong>, turning complexity into actionable insights.
-        </p>
-        <div class="hero-tags">
-          <span class="htag primary"><i class="fas fa-chart-line"></i> Business Analytics</span>
-          <span class="htag primary"><i class="fas fa-lightbulb"></i> Business Intelligence</span>
-          <span class="htag"><i class="fas fa-database"></i> Data Storytelling</span>
-          <span class="htag"><i class="fas fa-tasks"></i> Project Management</span>
-          <span class="htag"><i class="fas fa-coins"></i> Finance & Accounting</span>
-        </div>
-        <div class="hero-btns">
-          <a href="#projects" class="btn-main">View My Work</a>
-          <a href="#contact" class="btn-sec">Let's Talk <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="hero-socials">
-          <a href="https://github.com/Isini19" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/isini-udara-30b93b283" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:isiniudarahm@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
+  <div class="logo">IU<span>.</span></div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#leadership">Leadership</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="Assets/IsiniCv.pdf" class="cv-btn" download>
+    <i class="fas fa-download"></i> CV
+  </a>
+
+  <button class="hbg" id="hbg" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+</nav>
+
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+  <div class="hero-noise"></div>
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-orb orb3"></div>
+
+  <div class="hero-content">
+
+    <div class="hero-left">
+
+      <div class="hero-chip">
+        <span class="chip-dot"></span>
+        MIS Undergraduate · NSBM Green University
       </div>
 
-      <!-- RIGHT — photo + orbit words -->
-      <div class="hero-right">
-        <div class="orbit-wrap">
-          <div class="orbit-ring"></div>
-         
-         
-          <div class="hero-photo-wrap">
-  <img src="Assets/profile.jpeg" alt="Isini Udara">
-</div>
-        </div>
-      </div>
+      <h1>
+        <span class="h1-line1">Hi, I'm</span>
+        <span class="h1-name">Isini Udara</span>
+        <span class="h1-role">
+          <span id="typed"></span><span class="cur">|</span>
+        </span>
+      </h1>
 
-    </div>
-  </section>
+      <p class="hero-desc">
+        Combining Management Information Systems knowledge
+        with accounting and audit experience. Interested in
+        <strong>Business Analysis</strong>,
+        <strong>ERP & Business Systems</strong> and
+        <strong>Finance Analytics</strong>, using business
+        understanding and technology to improve business
+        processes and support better decisions.
+      </p>
 
-  <!-- ═══ ABOUT ═══ -->
-  <section class="sec" id="about">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">Who I Am</div>
-      <div class="about-grid">
+      <div class="hero-tags">
 
-        <!-- TEXT -->
-        <div class="about-text reveal">
-          <h2 class="sec-title">Where <em>Data</em> Meets<br/>Business <em>Insight</em></h2>
-          <p>I'm <strong>Isini Udara</strong>, a Management Information Systems undergraduate at <strong>NSBM Green University</strong> with a parallel background in Chartered Accountancy. Combining technology and finance, I enjoy transforming data into actionable business insights through analytics, dashboards, and data storytelling.</p>
-          <p>My primary interests lie in <strong>Business Analytics and Business Intelligence</strong>, where I explore how data can support better decision-making. I am also developing my knowledge of <strong>Project Management</strong> to better understand how technology, people, and business goals come together to deliver successful outcomes.</p>
-          <p>Currently, I am building my skills in <strong>Power BI, Tableau, SQL, python and etc</strong>, with the goal of pursuing a career at the intersection of data, technology, and business.</p>
+        <span class="htag primary">
+          <i class="fas fa-project-diagram"></i>
+          Business Analysis
+        </span>
 
-          <div class="about-career">
-            <div class="career-label"><i class="fas fa-compass"></i> Career Paths I'm Building Toward</div>
-            <div class="career-grid">
-              <div class="career-card">
-                <i class="fas fa-chart-line"></i>
-                <p class="cc-title">Business Analyst / BI Developer</p>
-                <p class="cc-sub">Translating business needs into data solutions</p>
-              </div>
-              <div class="career-card">
-                <i class="fas fa-chart-pie"></i>
-                <p class="cc-title">Data Analyst</p>
-                <p class="cc-sub">Extracting insight from complex datasets</p>
-              </div>
-              <div class="career-card">
-                <i class="fas fa-tasks"></i>
-                <p class="cc-title">Project Management (IT / Finance)</p>
-                <p class="cc-sub">Leading tech & analytics projects end-to-end</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <span class="htag primary">
+          <i class="fas fa-cogs"></i>
+          ERP & Business Systems
+        </span>
 
-        <!-- INFO GRID (like friend's style) -->
-        <div class="about-aside reveal">
-          <div class="info-grid">
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-graduation-cap"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Degree</div>
-                <div class="ig-val">BSc in Management Information Systems</div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-university"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">University</div>
-                <div class="ig-val">NSBM Green University</div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-balance-scale"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Professional Qualification</div>
-                <div class="ig-val">Chartered Accountancy<br/><span class="ig-sub">Corporate Level · CA Sri Lanka</span></div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-map-marker-alt"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Location</div>
-                <div class="ig-val">Sri Lanka <img src="https://flagcdn.com/24x18/lk.png" alt="Sri Lanka" style="display:inline-block;vertical-align:middle;border-radius:2px;margin-left:4px"></div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-briefcase"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Looking For</div>
-                <div class="ig-val">Internship — Business Analytics/<br> Business Intelligence Analytics/<br> Project Management</div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-envelope"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Email</div>
-                <div class="ig-val">isiniudarahm@gmail.com</div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-language"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Languages</div>
-                <div class="ig-val">Sinhala (Native)  English (Intermediate)</div>
-              </div>
-            </div>
-            <div class="ig-card">
-              <div class="ig-icon"><i class="fas fa-brain"></i></div>
-              <div class="ig-body">
-                <div class="ig-label">Primary Focus</div>
-                <div class="ig-val">Business Intelligence & Analytics</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <span class="htag">
+          <i class="fas fa-coins"></i>
+          Finance Analytics
+        </span>
 
-      </div>
-    </div>
-  </section>
+        <span class="htag">
+          <i class="fas fa-chart-line"></i>
+          Business Intelligence
+        </span>
 
-  <!-- ═══ SKILLS ═══ -->
-  <section class="sec sec-dark" id="skills">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">What I Know</div>
-      <h2 class="sec-title reveal">Skills & <em>Expertise</em></h2>
-
-      <div class="skills-main-grid">
-
-        <!-- BUSINESS SKILLS -->
-        <div class="sk-col reveal">
-          <div class="sk-col-head">
-            <div class="sk-col-icon"><i class="fas fa-briefcase"></i></div>
-            <div><h3>Business Skills</h3><p>Analytics, finance & management</p></div>
-          </div>
-          <div class="sk-list">
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Business Intelligence</span><span class="ski-tag expert">Expert</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="95"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Business Analytics</span><span class="ski-tag expert">Expert</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="92"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Data Storytelling</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="85"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Dashboard Design</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="83"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Management Accounting</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="82"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Project Management</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="70"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Financial Reporting</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="75"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">ERP Systems</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill" data-w="80"></div></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- TECHNICAL SKILLS -->
-        <div class="sk-col reveal">
-          <div class="sk-col-head">
-            <div class="sk-col-icon tech"><i class="fas fa-code"></i></div>
-            <div><h3>Technical Skills</h3><p>Programming, data & systems</p></div>
-          </div>
-          <div class="sk-list">
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">SQL / MySQL</span><span class="ski-tag expert">Expert</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="92"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Python</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="82"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Java</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="80"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">JavaScript / Node.js</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="70"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">React.js</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="68"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">Spring Boot</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="65"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">PHP</span><span class="ski-tag mid">Intermediate</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="65"></div></div>
-            </div>
-            <div class="sk-item">
-              <div class="ski-top"><span class="ski-name">HTML / CSS</span><span class="ski-tag adv">Advanced</span></div>
-              <div class="ski-bar"><div class="ski-fill tech" data-w="85"></div></div>
-            </div>
-          </div>
-        </div>
+        <span class="htag">
+          <i class="fas fa-tasks"></i>
+          Project Management
+        </span>
 
       </div>
 
-      <!-- TOOLS — compact tag cloud by category -->
-      <div class="tools-compact reveal">
-        <div class="tc-head"><i class="fas fa-tools"></i> Tools & Technologies</div>
-        <div class="tc-body">
-          <div class="tc-row">
-            <span class="tc-cat">Analytics & BI</span>
-            <div class="tc-tags">
-              <span><i class="fas fa-chart-bar"></i> Power BI</span>
-              <span><i class="fas fa-table"></i> Tableau</span>
-              <span><i class="fas fa-file-excel"></i> MS Excel</span>
-              
-            </div>
-          </div>
-          <div class="tc-row">
-            <span class="tc-cat">Programming</span>
-            <div class="tc-tags">
-              <span><i class="fab fa-python"></i> Python</span>
-              <span><i class="fab fa-java"></i> Java</span>
-              <span><i class="fab fa-js"></i> JavaScript</span>
-              <span><i class="fab fa-php"></i> PHP</span>
-              <span><i class="fab fa-node-js"></i> Node.js</span>
-              
-            </div>
-          </div>
-          <div class="tc-row">
-            <span class="tc-cat">Frameworks</span>
-            <div class="tc-tags">
-              <span><i class="fab fa-react"></i> React.js</span>
-              <span><i class="fas fa-leaf"></i> Spring Boot</span>
-              <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
-              <span><i class="fas fa-wind"></i> Tailwind CSS</span>
-            </div>
-          </div>
-          <div class="tc-row">
-            <span class="tc-cat">Dev & DB</span>
-            <div class="tc-tags">
-              <span><i class="fas fa-database"></i> MySQL</span>
-              <span><i class="fab fa-github"></i> GitHub</span>
-              <span><i class="fab fa-git-alt"></i> Git</span>
-              <span><i class="fas fa-paper-plane"></i> Postman</span>
-            </div>
-          </div>
-          <div class="tc-row">
-            <span class="tc-cat">Design</span>
-            <div class="tc-tags">
-              <span><i class="fab fa-figma"></i> Figma</span>
-              <span><i class="fas fa-palette"></i> Canva</span>
-              <span><i class="fas fa-globe"></i> Dreamweaver</span>
-              <span><i class="fas fa-file-powerpoint"></i> PowerPoint</span>
-            </div>
-          </div>
-        </div>
-        <div class="tc-learning">
-          <span class="tl-dot"></span>
-          <strong>Currently Learning:</strong>
-          <span>Power BI Advanced</span>
-          <span>Tableau</span>
-          <span>R Language</span>
-          <span>Data Visualization</span>
-        </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-main">View My Work</a>
+
+        <a href="#contact" class="btn-sec">
+          Let's Talk <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+
+        <a href="https://github.com/Isini19"
+          target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/isini-udara-30b93b283"
+          target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:isiniudarahm@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+
       </div>
 
     </div>
-  </section>
 
-  <!-- ═══ PROJECTS ═══ -->
-  <section class="sec" id="projects">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">What I've Built</div>
-      <h2 class="sec-title reveal">Selected <em>Projects</em></h2>
-      <div class="proj-grid">
+    <!-- PROFILE PHOTO -->
 
-        <div class="proj-card featured reveal">
-          
-          <div class="pc-top">
-            <span class="pc-num">01</span>
-            <div class="pc-icon"><i class="fas fa-tasks"></i></div>
-          </div>
-          <div class="pc-tags"><span>React.js</span><span>Spring Boot</span><span>MySQL</span><span>JWT</span></div>
-          <h3>Task Management System</h3>
-          <p>Enterprise-grade full-stack task management platform with JWT auth, task filtering, email notifications, and PDF/CSV export. <strong>I built the Admin Dashboard & Analytics Charts</strong> — giving managers real-time system insights.</p>
-          <div class="pc-contrib"><i class="fas fa-user-check"></i> My Role: <strong>Admin Dashboard & Data Visualization</strong></div>
-          <div class="pc-links">
-            <a href="https://github.com/Chamindu18/task-management-system" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-          </div>
+    <div class="hero-right">
+
+      <div class="orbit-wrap">
+
+        <div class="orbit-ring"></div>
+
+        <div class="hero-photo-wrap">
+          <img
+            src="Assets/profile.jpeg"
+            alt="Isini Udara">
         </div>
 
-      
+      </div>
 
-        <div class="proj-card reveal">
-          <div class="pc-top">
-            <span class="pc-num">02</span>
-            <div class="pc-icon"><i class="fas fa-cut"></i></div>
-          </div>
-          <div class="pc-tags"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span></div>
-          <h3>Salon Nilu</h3>
-          <p>Web-based salon management system with appointment booking, customer records, and service tracking — built with PHP and MySQL for a real small business.</p>
-          <div class="pc-links">
-            <a href="https://github.com/SanukaWaravita/SalonNilu" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-          </div>
-        </div>
+    </div>
 
-       <div class="proj-card featured reveal">
-  
-  <div class="pc-top">
-    <span class="pc-num">03</span>
-    <div class="pc-icon"><i class="fas fa-user-tie"></i></div>
   </div>
-  <div class="pc-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
-  <h3>Personal Portfolio Website</h3>
-  <p>A fully responsive personal portfolio built from scratch using pure HTML, CSS and JavaScript — featuring scroll animations, a typing effect, animated skill bars, and a teal & emerald dark theme. The very site you're viewing right now!</p>
-  <div class="pc-links">
-    <a href="https://github.com/Isini19/my-portfolio" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-    
-  </div>
-</div>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ EDUCATION ═══ -->
-  <section class="sec sec-dark" id="education">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">My Academic Path</div>
-      <h2 class="sec-title reveal">Education & <em>Qualifications</em></h2>
-      <div class="edu-list">
-
-        <div class="edu-item reveal">
-          <div class="edu-meta">
-            <div class="edu-yr">2025</div>
-            <div class="edu-to">Present</div>
-            <div class="edu-badge">Undergraduate</div>
-          </div>
-          <div class="edu-connector"><div class="edu-dot"></div></div>
-          <div class="edu-card">
-            <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
-            <div class="edu-body">
-              <h3>BSc (Hons) Management Information Systems(special)</h3>
-              <p class="edu-inst"><i class="fas fa-map-marker-alt"></i> NSBM Green University</p>
-              <p class="edu-desc">A comprehensive programme covering enterprise systems, database management, software development, systems analysis, UX/interface design, and business intelligence — bridging IT and business strategy.</p>
-              <div class="edu-tags">
-                <span>Enterprise Systems</span><span>Business Intelligence</span>
-                <span>Software Development</span><span>Database Management</span>
-                <span>UX Design</span><span>Systems Analysis</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="edu-item reveal">
-          <div class="edu-meta">
-            <div class="edu-yr">2023</div>
-            <div class="edu-to">Present</div>
-            <div class="edu-badge">Professional</div>
-          </div>
-          <div class="edu-connector"><div class="edu-dot"></div></div>
-          <div class="edu-card">
-            <div class="edu-icon"><i class="fas fa-balance-scale"></i></div>
-            <div class="edu-body">
-              <h3>Chartered Accountancy</h3>
-              <p class="edu-inst"><i class="fas fa-map-marker-alt"></i> CA Sri Lanka · ICASL</p>
-              <div class="ca-level-badge"><i class="fas fa-layer-group"></i> Corporate Level</div>
-              <p class="edu-desc">Pursuing the CA professional qualification at <strong>Corporate Level</strong>, covering financial accounting, management accounting, taxation, and auditing. This finance foundation uniquely complements my IT background — giving me a cross-functional advantage in data analytics and BI roles.</p>
-              <div class="edu-tags">
-                <span>Corporate Level</span><span>Management Accounting</span>
-                <span>Financial Reporting</span><span>Auditing</span><span>Taxation</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="edu-item reveal">
-          <div class="edu-meta">
-            <div class="edu-yr">2022</div>
-            <div class="edu-to">Completed </div>
-            <div class="edu-badge">A/L</div>
-          </div>
-          <div class="edu-connector "><div class="edu-dot"></div></div>
-          <div class="edu-card">
-            <div class="edu-icon"><i class="fas fa-school"></i></div>
-            <div class="edu-body">
-              <h3>G.C.E. Advanced Level</h3>
-              <p class="edu-inst"><i class="fas fa-map-marker-alt"></i> Yasodara Devi Balika Vidyalaya Gampaha</p>
-              <p class="edu-desc">Commerce stream with strong results in Accounting, Business Statistics, and Economics — the foundation that sparked my passion for the intersection of business, technology, and data.</p>
-             
-<div class="edu-results">
-  <div class="result-item"><span class="res-sub">Accounting</span><span class="res-grade a">A</span></div>
-  <div class="result-item"><span class="res-sub">Economics</span><span class="res-grade b">B</span></div>
-  <div class="result-item"><span class="res-sub">Business Statistics</span><span class="res-grade c">C</span></div>
-  <div class="result-item"><span class="res-sub">English</span><span class="res-grade c">C</span></div>
-</div>
-
-
-            </div>
-          </div>
-        </div>
-
-        <div class="edu-item reveal">
-          <div class="edu-meta">
-            <div class="edu-yr">2019</div>
-            <div class="edu-to">Completed</div>
-            <div class="edu-badge">O/L</div>
-          </div>
-          <div class="edu-connector last"><div class="edu-dot"></div></div>
-          <div class="edu-card">
-            <div class="edu-icon"><i class="fas fa-school"></i></div>
-            <div class="edu-body">
-              <h3>G.C.E. Ordinary Level</h3>
-              <p class="edu-inst"><i class="fas fa-map-marker-alt"></i> Kolonnawa Balika Vidyalaya</p>
-              <p class="edu-desc">Completed O/L with outstanding results — building a strong academic foundation across subjects in Sinhala, Mathematics, Science, English, History, Buddhism, Commerce, Dancing and Home Economics.</p>
-              <div class="edu-results">
-                <div class="result-item"><span class="res-sub">6 A Passes</span></div>
-                <div class="result-item"><span class="res-sub">3 B Passes</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ CERTIFICATIONS ═══ -->
-  <section class="sec" id="certifications">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">My Credentials</div>
-      <h2 class="sec-title reveal">Certifi<em>cations</em></h2>
-      <div class="cert-grid">
-        <div class="cert-card reveal">
-          <div class="cert-img">
-            
-            <div class="cert-ph"><i class="fas fa-certificate"></i><span><img src="Assets/BA.jpeg" alt="Business analytics"></span></div>
-          </div>
-          <div class="cert-info">
-            <div class="cert-org"><i class="fas fa-award"></i>simplilearn</div>
-            <h3>Business Analytics with excel</h3>
-            <div class="cert-date"><i class="fas fa-calendar-alt"></i> April 2026</div>
-            <a href="Assets/BA.jpeg" target="_blank" class="cert-link"></a><i class="fas fa-external-link-alt"></i> View Certificate</a>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-img">
-            <div class="cert-ph"><i class="fas fa-certificate"></i><span><img src="Assets/linkup.jpeg" alt="linkup"></span></div>
-          </div>
-          <div class="cert-info">
-            <div class="cert-org"><i class="fas fa-award"></i> Student Wellbeing Association NSBM</div>
-            <h3>Appreciation of Organizing Committee Members of Link Up 2025 August Meetup</h3>
-            <div class="cert-date"><i class="fas fa-calendar-alt"></i>August 2025</div>
-            <a href="Assets/linkup.jpeg" target="_blank" class="cert-link"></a><i class="fas fa-external-link-alt"></i> View Certificate</a>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-img">
-            <div class="cert-ph"><i class="fas fa-certificate"><img src="Assets/skillshare.jpeg" alt="skillshare"></i><span></span></div>
-          </div>
-          <div class="cert-info">
-            <div class="cert-org"><i class="fas fa-award"></i>IEEE Student Branch NSBM</div>
-            <h3>skillshare Feb edition</h3>
-            <div class="cert-date"><i class="fas fa-calendar-alt"></i>February 2025</div>
-            <a href="Assets/skillshare.jpeg" target="_blank" class="cert-link"></a><i class="fas fa-external-link-alt"></i> View Certificate</a>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-
-  <!-- ═══ EXPERIENCE ═══ -->
-  <section class="sec sec-dark" id="experience">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">Where I've Been</div>
-      <h2 class="sec-title reveal">Work <em>Experience</em></h2>
-      <div class="exp-list">
-
-        <div class="exp-item reveal">
-          <div class="exp-left">
-            <div class="exp-period">2023 July-2024 October</div>
-            <div class="exp-type">Internship</div>
-          </div>
-          <div class="exp-line"><div class="exp-dot"></div></div>
-          <div class="exp-card">
-            <h3>Audit trainee</h3>
-            <p class="exp-co"><i class="fas fa-building"></i> P.W.F Associates Gampaha</p>
-            <p class="exp-desc"> 
-Performed bookkeeping, monthly payroll processing, and  bank reconciliations  using “QuickBook” accounting software.<br/>
-Assisted in the preparation of financial statements and reports for internal and external use.<br/>
-Handled accounts payable functions, including invoice verification and payment processing.<br/>
-Prepared payment vouchers and assisted in cheque disbursement.<br/>
-Assisted audit procedures for clients across retail, manufacturing
-sectors.</p>
-            <div class="exp-tags">
-              <span>QuickBook Accounting Software</span><span>Management Accounts</span>
-              <span>Auditing</span><span>ERP Systems</span><span>Financial Accounting</span>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ LEADERSHIP & ACTIVITIES ═══ -->
-<section class="sec" id="leadership">
-  <div class="wrap">
-    <div class="sec-eyebrow reveal">Beyond the Classroom</div>
-    <h2 class="sec-title reveal">Leadership & <em>Activities</em></h2>
-    <div class="lead-grid">
-
-      <div class="lead-card reveal">
-        <div class="lead-top">
-          <div class="lead-icon"><i class="fas fa-laptop-code"></i></div>
-          <div class="lead-badge">2026 / 2027</div>
-        </div>
-        <h3>Executive Member</h3>
-        <p class="lead-org"><i class="fas fa-university"></i> Association of Information Systems · NSBM Green University</p>
-        <p class="lead-desc">Serving as an Executive Member of the Association of Information Systems (AIS) for the 2026/27 term, contributing to student engagement initiatives, professional development activities, and the organization of events and workshops.</p>
-        <div class="lead-tags"><span>Leadership</span><span>Information Systems</span><span>NSBM</span></div>
-      </div>
-
-      <div class="lead-card reveal">
-        <div class="lead-top">
-          <div class="lead-icon"><i class="fas fa-users"></i></div>
-          <div class="lead-badge">August 2025</div>
-        </div>
-        <h3>Organizing Committee Member</h3>
-        <p class="lead-org"> LINKUP 2025 August Meetup · Student Wellbeing Association · NSBM</p>
-        <p class="lead-desc">Contributed to the planning and successful execution of the LinkUp August Meetup as an Organizing Committee Member, enhancing my teamwork, communication, and organizational skills.</p>
-        <div class="lead-tags"><span>Event Planning</span><span>Teamwork</span><span>Student Wellbeing</span></div>
-      </div>
-
-    </div>
-  </div>
 </section>
 
-  <!-- ═══ CONTACT ═══ -->
-  <section class="sec" id="contact">
-    <div class="wrap">
-      <div class="sec-eyebrow reveal">Let's Connect</div>
-      <div class="contact-layout">
-        <div class="contact-left reveal">
-          <h2 class="sec-title">Let's build something<br/><em>meaningful</em> together</h2>
-          <p>Open to internship opportunities, project collaborations, and conversations around data, analytics, and tech. Got an idea or an opportunity? Let's talk!</p>
-          <div class="c-list">
-            <a href="mailto:isiniudarahm@gmail.com" class="c-item">
-              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
-              <div class="ci-body"><span class="ci-label">Email</span><span class="ci-val">isiniudarahm@gmail.com</span></div>
-              <i class="fas fa-chevron-right ci-arr"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/isini-udara-30b93b283" target="_blank" rel="noopener" class="c-item">
-              <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
-              <div class="ci-body"><span class="ci-label">LinkedIn</span><span class="ci-val">Isini Udara</span></div>
-              <i class="fas fa-chevron-right ci-arr"></i>
-            </a>
-            <a href="https://github.com/Isini19" target="_blank" rel="noopener" class="c-item">
-              <div class="ci-icon"><i class="fab fa-github"></i></div>
-              <div class="ci-body"><span class="ci-label">GitHub</span><span class="ci-val">Isini19</span></div>
-              <i class="fas fa-chevron-right ci-arr"></i>
-            </a>
-            <div class="c-item">
-              <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
-              <div class="ci-body"><span class="ci-label">Location</span><span class="ci-val">Sri Lanka <img src="https://flagcdn.com/24x18/lk.png" alt="Sri Lanka" style="display:inline-block;vertical-align:middle;border-radius:2px;margin-left:4px"></span></div>
+
+
+
+<!-- ABOUT -->
+
+<section class="sec" id="about">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">Who I Am</div>
+
+    <div class="about-grid">
+
+      <div class="about-text reveal">
+
+        <h2 class="sec-title">
+          Where <em>Data</em> Meets
+          <br>
+          Business <em>Insight</em>
+        </h2>
+
+        <p>
+          I'm <strong>Isini Udara</strong>, a Management
+          Information Systems undergraduate at
+          <strong>NSBM Green University</strong> and a
+          Corporate Level student at CA Sri Lanka.
+          My academic background combines information
+          systems, business and technology with accounting
+          and finance.
+        </p>
+
+        <p>
+          My primary career interests are
+          <strong>Business Analysis and Business Intelligence</strong>.
+          I am interested in understanding business
+          requirements, analysing processes, working with
+          data and developing solutions that support
+          organisational decision-making.
+        </p>
+
+        <p>
+          With 1 year and 4 months of audit trainee experience,
+          I have gained practical exposure to bookkeeping,
+          financial statement preparation, payroll processing,
+          bank reconciliations and accounts payable.
+          I am developing my technical capabilities in
+          Power BI, SQL, Excel and Python through coursework
+          and practical projects.
+        </p>
+
+        <div class="about-career">
+
+          <div class="career-label">
+            <i class="fas fa-compass"></i>
+            Career Interests
+          </div>
+
+          <div class="career-grid">
+
+            <div class="career-card">
+              <i class="fas fa-project-diagram"></i>
+
+              <div>
+                <p class="cc-title">Business Analysis</p>
+
+                <p class="cc-sub">
+                  Requirements analysis, business processes
+                  and solution development.
+                </p>
+              </div>
+            </div>
+
+            <div class="career-card">
+              <i class="fas fa-chart-line"></i>
+
+              <div>
+                <p class="cc-title">Business Intelligence</p>
+
+                <p class="cc-sub">
+                  Data analysis, reporting, dashboards
+                  and business insights.
+                </p>
+              </div>
+            </div>
+
+            <div class="career-card">
+              <i class="fas fa-coins"></i>
+
+              <div>
+                <p class="cc-title">Finance Analytics & Business Systems</p>
+
+                <p class="cc-sub">
+                  Combining accounting knowledge,
+                  financial information and technology.
+                </p>
+              </div>
+            </div>
+
+            <div class="career-card">
+              <i class="fas fa-tasks"></i>
+
+              <div>
+                <p class="cc-title">Project Management</p>
+
+                <p class="cc-sub">
+                  An additional interest in coordinating
+                  business and technology initiatives.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- PERSONAL INFORMATION -->
+
+      <div class="about-aside reveal">
+
+        <div class="info-grid">
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Degree</div>
+              <div class="ig-val">
+                BSc (Hons) Management Information Systems
+              </div>
             </div>
           </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-university"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">University</div>
+              <div class="ig-val">NSBM Green University</div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-balance-scale"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Professional Qualification</div>
+
+              <div class="ig-val">
+                Chartered Accountancy
+                <br>
+                <span class="ig-sub">
+                  Corporate Level · CA Sri Lanka
+                </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Location</div>
+              <div class="ig-val">Sri Lanka</div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Looking For</div>
+
+              <div class="ig-val">
+                Business Analyst / BI / ERP Internship
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Email</div>
+              <div class="ig-val">
+                isiniudarahm@gmail.com
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-language"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Languages</div>
+              <div class="ig-val">
+                Sinhala · English
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ig-card">
+            <div class="ig-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+
+            <div class="ig-body">
+              <div class="ig-label">Primary Focus</div>
+              <div class="ig-val">
+                Business Analysis & Business Intelligence
+              </div>
+            </div>
+          </div>
+
         </div>
-        <form class="contact-form reveal" id="cForm" action="https://formspree.io/f/mojznloa" method="POST">
-  <div class="f-row">
-    <div class="fg"><label>Name</label><input type="text" name="name" placeholder="Alex Nickolas" required/></div>
-    <div class="fg"><label>Email</label><input type="email" name="email" placeholder="alex@email.com" required/></div>
+
+      </div>
+
+    </div>
+
   </div>
-  <div class="fg"><label>Subject</label><input type="text" name="subject" placeholder="Internship / Collaboration / Just saying hi!" required/></div>
-  <div class="fg"><label>Message</label><textarea rows="5" name="message" placeholder="Tell me about your opportunity or project..." required></textarea></div>
-  <button type="submit" class="f-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-</form>
-      </div>
-    </div>
-  </section>
 
-  <!-- ═══ FOOTER ═══ -->
-  <footer>
-    <div class="foot-top">
-      <div class="foot-brand">
-        <div class="foot-logo">IU<span>.</span></div>
-        <p>MIS Undergraduate · Business Analytics & BI · Sri Lanka</p>
-      </div>
-      <div class="foot-nav">
-        <a href="#about">About</a><a href="#skills">Skills</a>
-        <a href="#projects">Projects</a><a href="#contact">Contact</a>
-      </div>
-      <div class="foot-soc">
-        <a href="https://github.com/Isini19" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/isini-udara-30b93b283" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:isiniudarahm@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <p>&copy; 2025 Isini Udara · All rights reserved · Made with <i class="fas fa-heart"></i> in Sri Lanka</p>
-    </div>
-  </footer>
+</section>
 
-  <script src="script.js"></script>
+
+<!-- SKILLS -->
+
+<section class="sec sec-dark" id="skills">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">What I Know</div>
+
+    <h2 class="sec-title reveal">
+      Skills & <em>Expertise</em>
+    </h2>
+
+    <div class="skills-main-grid">
+
+
+      <!-- BUSINESS SKILLS -->
+
+      <div class="sk-col reveal">
+
+        <div class="sk-col-head">
+
+          <div class="sk-col-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+
+          <div>
+            <h3>Business & Analytical Skills</h3>
+            <p>Business processes, analysis and finance</p>
+          </div>
+
+        </div>
+
+        <div class="sk-list">
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Requirements Gathering</span>
+              <span class="ski-tag mid">Developing</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Business Process Modelling (BPMN)</span>
+              <span class="ski-tag mid">Academic Projects</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">SDLC & Systems Analysis</span>
+              <span class="ski-tag mid">Academic Projects</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Business Process Analysis</span>
+              <span class="ski-tag mid">Developing</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Financial Accounting & Reporting</span>
+              <span class="ski-tag mid">Academic / Practical</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Audit & Reconciliation Procedures</span>
+              <span class="ski-tag mid">Practical Experience</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Agile & Scrum Fundamentals</span>
+              <span class="ski-tag mid">Foundational</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- TECHNICAL SKILLS -->
+
+      <div class="sk-col reveal">
+
+        <div class="sk-col-head">
+
+          <div class="sk-col-icon tech">
+            <i class="fas fa-code"></i>
+          </div>
+
+          <div>
+            <h3>Technical Skills</h3>
+            <p>Data, programming and information systems</p>
+          </div>
+
+        </div>
+
+        <div class="sk-list">
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Power BI</span>
+              <span class="ski-tag mid">Project Experience</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">SQL / MySQL</span>
+              <span class="ski-tag mid">Developing</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Microsoft Excel</span>
+              <span class="ski-tag mid">Developing</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Python for Data Analysis</span>
+              <span class="ski-tag mid">Foundational</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Pandas, NumPy & Matplotlib</span>
+              <span class="ski-tag mid">Foundational</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">React & Spring Boot</span>
+              <span class="ski-tag mid">Project Experience</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Database Concepts</span>
+              <span class="ski-tag mid">Project Experience</span>
+            </div>
+          </div>
+
+          <div class="sk-item">
+            <div class="ski-top">
+              <span class="ski-name">Git & GitHub</span>
+              <span class="ski-tag mid">Project Experience</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- TOOLS -->
+
+    <div class="tools-compact reveal">
+
+      <div class="tc-head">
+        <i class="fas fa-tools"></i>
+        Tools & Technologies
+      </div>
+
+      <div class="tc-body">
+
+        <div class="tc-row">
+          <span class="tc-cat">Analytics & BI</span>
+
+          <div class="tc-tags">
+            <span>Power BI</span>
+            <span>Tableau</span>
+            <span>Microsoft Excel</span>
+          </div>
+        </div>
+
+        <div class="tc-row">
+          <span class="tc-cat">Data Analysis</span>
+
+          <div class="tc-tags">
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="tc-row">
+          <span class="tc-cat">Business Analysis</span>
+
+          <div class="tc-tags">
+            <span>BPMN</span>
+            <span>SDLC</span>
+            <span>Requirements Analysis</span>
+            <span>Process Modelling</span>
+          </div>
+        </div>
+
+        <div class="tc-row">
+          <span class="tc-cat">Development</span>
+
+          <div class="tc-tags">
+            <span>React.js</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>GitHub</span>
+            <span>Git</span>
+          </div>
+        </div>
+
+        <div class="tc-row">
+          <span class="tc-cat">Other Tools</span>
+
+          <div class="tc-tags">
+            <span>Figma</span>
+            <span>Jira</span>
+            <span>PowerPoint</span>
+            <span>QuickBooks</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- CURRENTLY LEARNING -->
+
+      <div class="tc-learning">
+
+        <span class="tl-dot"></span>
+
+        <strong>Currently Learning:</strong>
+
+        <span>Introduction to Business Intelligence and Analytics</span>
+
+      </div>
+
+      <p style="font-size:.7rem;color:var(--muted);margin-top:.5rem;">
+        Saylor Academy · BUS250
+      </p>
+
+      <a href="https://learn.saylor.org/course/bus250"
+        target="_blank"
+        rel="noopener"
+        style="font-size:.72rem;color:var(--teal);text-decoration:none;">
+
+        View Course
+        <i class="fas fa-external-link-alt"></i>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<!-- PROJECTS -->
+
+<section class="sec" id="projects">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">What I've Built</div>
+
+    <h2 class="sec-title reveal">
+      Selected <em>Projects</em>
+    </h2>
+
+    <div class="proj-grid">
+
+      <!-- 01 ENERGY DASHBOARD -->
+
+      <div class="proj-card featured reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">01</span>
+          <div class="pc-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>Power BI</span>
+          <span>Data Analytics</span>
+          <span>Data Visualisation</span>
+        </div>
+
+        <h3>Sri Lanka Energy Consumption Dashboard</h3>
+
+        <p>
+          An individual Power BI project exploring Sri Lanka's
+          electricity generation and energy consumption trends
+          from 1965 to 2022. The interactive dashboard presents
+          electricity generation, fossil-fuel usage, renewable
+          energy trends and the overall energy mix.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: End-to-end individual project</strong>
+        </div>
+
+        <div class="pc-links">
+          <a href="https://github.com/Isini19/srilanka-energy-dashboard"
+             target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- 02 DESIGN DROP -->
+
+      <div class="proj-card featured reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">02</span>
+          <div class="pc-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>React.js</span>
+          <span>Spring Boot</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+        </div>
+
+        <h3>Design Drop – T-Shirt Design Marketplace</h3>
+
+        <p>
+          An individual full-stack learning project designed
+          as an online marketplace connecting designers,
+          customers and companies. The platform explores
+          user management, design submissions, approval
+          workflows and marketplace administration.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: Individual project development</strong>
+        </div>
+
+        <div class="pc-links">
+          <a href="https://github.com/Isini19/DesignDrop"
+             target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- 03 PETCARE+ -->
+
+      <div class="proj-card reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">03</span>
+          <div class="pc-icon">
+            <i class="fas fa-paw"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>Flutter</span>
+          <span>Dart</span>
+          <span>Firebase</span>
+          <span>Git</span>
+          <span>GitHub</span>
+        </div>
+
+        <h3>PetCare+ – Pet Care Mobile Application</h3>
+
+        <p>
+          A mobile application designed to connect pet owners
+          with veterinary services and simplify pet care
+          management. The system includes veterinary hospital
+          discovery, appointment booking, live queue tracking,
+          pet information management and notifications.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: Hospital discovery, appointment
+          management, queue tracking, pet data, notifications
+          and veterinarian dashboard features.</strong>
+        </div>
+
+        <div class="pc-links">
+          <a href="https://github.com/Chamindu18/petcare"
+             target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- 04 TASK MANAGEMENT -->
+
+      <div class="proj-card reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">04</span>
+          <div class="pc-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>React.js</span>
+          <span>Spring Boot</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+          <span>Recharts</span>
+        </div>
+
+        <h3>Task Management System</h3>
+
+        <p>
+          A full-stack task management platform developed
+          as a university team project to support task
+          assignment, tracking and administration.
+          It includes an administrative dashboard,
+          task management features and analytics charts.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: Admin Dashboard & Data Visualisation</strong>
+        </div>
+
+        <div class="pc-links">
+          <a href="https://github.com/Chamindu18/task-management-system"
+             target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- 05 LIFELINK SL -->
+
+      <div class="proj-card reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">05</span>
+          <div class="pc-icon">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>Figma</span>
+          <span>UI/UX Design</span>
+          <span>HCI</span>
+          <span>Prototyping</span>
+        </div>
+
+        <h3>LifeLink SL – Blood Donation Platform</h3>
+
+        <p>
+          A UI/UX design prototype for a blood donation
+          platform focused on improving the experience
+          of blood donors. The concept explores donor
+          information, donation history, confirmation
+          processes and profile management.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: Home Dashboard, Donation History,
+          Donation Confirmation & User Profile designs.</strong>
+        </div>
+
+        <div class="pc-links">
+  <a href="https://www.figma.com/design/qqQo5vEfmywMQ67sk2mgjX/LifeLink---Mobile-App-Design?node-id=0-1&p=f&t=QsPy94RrPJazo5zm-0"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="fab fa-figma"></i> View Figma Design
+  </a>
+</div>
+
+      </div>
+
+
+      <!-- 06 LIBCONNECT -->
+
+      <div class="proj-card reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">06</span>
+          <div class="pc-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>Figma</span>
+          <span>Draw.io</span>
+          <span>BPM</span>
+          <span>Process Modelling</span>
+        </div>
+
+        <h3>LibConnect – Library Process Improvement</h3>
+
+        <p>
+          A Business Process Management project focused
+          on analysing and improving the library borrowing
+          and book collection experience. The project
+          explores the existing library workflow and
+          a QR-code-based book pickup concept.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: AS-IS Process Diagram &
+          Book Pickup QR Code Screen.</strong>
+        </div>
+<div class="pc-links">
+  <a href="https://www.figma.com/design/DHUc2HezhZNowM6jFn83Ol/Library-Book-Borrowing---Renewal-Process?node-id=196-286&p=f&t=BMl8WkfE23NmGt66-0"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="fab fa-figma"></i> View Figma Design
+  </a>
+</div>
+
+      </div>
+
+
+      <!-- 07 PERSONAL PORTFOLIO -->
+
+      <div class="proj-card reveal">
+
+        <div class="pc-top">
+          <span class="pc-num">07</span>
+          <div class="pc-icon">
+            <i class="fas fa-user-tie"></i>
+          </div>
+        </div>
+
+        <div class="pc-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>GitHub</span>
+        </div>
+
+        <h3>Personal Portfolio Website</h3>
+
+        <p>
+          A responsive personal portfolio website developed
+          to showcase my academic background, professional
+          interests, technical skills, certifications,
+          project experience and career development.
+        </p>
+
+        <div class="pc-contrib">
+          <i class="fas fa-user-check"></i>
+          <strong>My Contribution: Individual design and development</strong>
+        </div>
+
+        <div class="pc-links">
+          <a href="https://github.com/Isini19/my-portfolio"
+             target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+      
+
+
+<!-- EDUCATION -->
+
+<section class="sec sec-dark" id="education">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">My Academic Path</div>
+
+    <h2 class="sec-title reveal">
+      Education & <em>Qualifications</em>
+    </h2>
+
+    <div class="edu-list">
+
+
+      <div class="edu-item reveal">
+
+        <div class="edu-meta">
+          <div class="edu-yr">2025</div>
+          <div class="edu-to">Present</div>
+          <div class="edu-badge">Undergraduate</div>
+        </div>
+
+        <div class="edu-connector">
+          <div class="edu-dot"></div>
+        </div>
+
+        <div class="edu-card">
+
+          <div class="edu-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+
+          <div class="edu-body">
+
+            <h3>BSc (Hons) Management Information Systems (Special)</h3>
+
+            <p class="edu-inst">
+              <i class="fas fa-university"></i>
+              NSBM Green University
+            </p>
+
+            <p class="edu-desc">
+              Currently pursuing a degree in Management
+              Information Systems, developing knowledge
+              across information systems, business
+              processes, software development,
+              database management and business intelligence.
+            </p>
+
+            <div class="edu-tags">
+              <span>Information Systems</span>
+              <span>Business Analysis</span>
+              <span>Business Intelligence</span>
+              <span>Database Management</span>
+              <span>Systems Analysis</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="edu-item reveal">
+
+        <div class="edu-meta">
+          <div class="edu-yr">2023</div>
+          <div class="edu-to">Present</div>
+          <div class="edu-badge">Professional</div>
+        </div>
+
+        <div class="edu-connector">
+          <div class="edu-dot"></div>
+        </div>
+
+        <div class="edu-card">
+
+          <div class="edu-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+
+          <div class="edu-body">
+
+            <h3>Chartered Accountancy</h3>
+
+            <p class="edu-inst">
+              <i class="fas fa-university"></i>
+              CA Sri Lanka
+            </p>
+
+            <div class="ca-level-badge">
+              <i class="fas fa-layer-group"></i>
+              Corporate Level
+            </div>
+
+            <p class="edu-desc">
+              Pursuing the CA Sri Lanka professional
+              qualification at Corporate Level, developing
+              knowledge in accounting, finance,
+              management accounting, auditing and
+              financial reporting.
+            </p>
+
+            <div class="edu-tags">
+              <span>Corporate Level</span>
+              <span>Financial Accounting</span>
+              <span>Management Accounting</span>
+              <span>Auditing</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="edu-item reveal">
+
+        <div class="edu-meta">
+          <div class="edu-yr">2022</div>
+          <div class="edu-to">Completed</div>
+          <div class="edu-badge">A/L</div>
+        </div>
+
+        <div class="edu-connector">
+          <div class="edu-dot"></div>
+        </div>
+
+        <div class="edu-card">
+
+          <div class="edu-icon">
+            <i class="fas fa-school"></i>
+          </div>
+
+          <div class="edu-body">
+
+            <h3>G.C.E. Advanced Level</h3>
+
+            <p class="edu-inst">
+              Yasodara Devi Balika Vidyalaya, Gampaha
+            </p>
+
+            <p class="edu-desc">
+              Commerce Stream
+            </p>
+
+            <div class="edu-results">
+
+              <div class="result-item">
+                <span class="res-sub">Accounting</span>
+                <span class="res-grade a">A</span>
+              </div>
+
+              <div class="result-item">
+                <span class="res-sub">Economics</span>
+                <span class="res-grade b">B</span>
+              </div>
+
+              <div class="result-item">
+                <span class="res-sub">Business Statistics</span>
+                <span class="res-grade c">C</span>
+              </div>
+
+              <div class="result-item">
+                <span class="res-sub">English</span>
+                <span class="res-grade c">C</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="edu-item reveal">
+
+        <div class="edu-meta">
+          <div class="edu-yr">2019</div>
+          <div class="edu-to">Completed</div>
+          <div class="edu-badge">O/L</div>
+        </div>
+
+        <div class="edu-connector last">
+          <div class="edu-dot"></div>
+        </div>
+
+        <div class="edu-card">
+
+          <div class="edu-icon">
+            <i class="fas fa-school"></i>
+          </div>
+
+          <div class="edu-body">
+
+            <h3>G.C.E. Ordinary Level</h3>
+
+            <p class="edu-inst">
+              Kolonnawa Balika Vidyalaya
+            </p>
+
+            <div class="edu-results">
+
+              <div class="result-item">
+                <span class="res-sub">6 A Passes</span>
+              </div>
+
+              <div class="result-item">
+                <span class="res-sub">3 B Passes</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CERTIFICATIONS -->
+
+<section class="sec" id="certifications">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">My Credentials</div>
+
+    <h2 class="sec-title reveal">
+      Certifi<em>cations</em>
+    </h2>
+
+    <div class="cert-grid">
+
+
+      <!-- AGILE -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/agile.jpeg"
+            alt="HP LIFE Agile Project Management Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            HP LIFE · HP Foundation
+          </div>
+
+          <h3>Agile Project Management</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            27 August 2026
+          </div>
+
+          <a href="Assets/agile.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- PYTHON -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/python.jpeg"
+            alt="Python for Data Analysis Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            Simplilearn SkillUp
+          </div>
+
+          <h3>Python for Data Analysis</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            1 September 2026
+          </div>
+
+          <a href="Assets/python.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- SQL -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/sql.jpeg"
+            alt="SQL for Data Analysis Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            Simplilearn SkillUp
+          </div>
+
+          <h3>SQL for Data Analysis</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            1 July 2026
+          </div>
+
+          <a href="Assets/sql.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- BUSINESS ANALYTICS -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/BA.jpeg"
+            alt="Business Analytics with Excel Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            Simplilearn
+          </div>
+
+          <h3>Business Analytics with Excel</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            April 2026
+          </div>
+
+          <a href="Assets/BA.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- LINKUP -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/linkup.jpeg"
+            alt="LinkUp Meetup Appreciation Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            Students' Wellbeing Association · NSBM
+          </div>
+
+          <h3>LinkUp 2025 August Meetup – Appreciation</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            August 2025
+          </div>
+
+          <a href="Assets/linkup.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- SKILLSHARE -->
+
+      <div class="cert-card reveal">
+
+        <div class="cert-img">
+          <img src="Assets/skillshare.jpeg"
+            alt="SkillShare Certificate">
+        </div>
+
+        <div class="cert-info">
+
+          <div class="cert-org">
+            <i class="fas fa-award"></i>
+            IEEE Student Branch · NSBM
+          </div>
+
+          <h3>SkillShare February Edition</h3>
+
+          <div class="cert-date">
+            <i class="fas fa-calendar-alt"></i>
+            February 2025
+          </div>
+
+          <a href="Assets/skillshare.jpeg"
+            target="_blank"
+            class="cert-link">
+            <i class="fas fa-external-link-alt"></i>
+            View Certificate
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="cert-note">
+      <i class="fas fa-info-circle"></i>
+      Certificates are displayed for completed courses and activities.
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section class="sec sec-dark" id="experience">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">Where I've Been</div>
+
+    <h2 class="sec-title reveal">
+      Work <em>Experience</em>
+    </h2>
+
+    <div class="exp-list">
+
+      <div class="exp-item reveal">
+
+        <div class="exp-left">
+
+          <div class="exp-period">
+            Jul 2023 – Oct 2024
+          </div>
+
+          <div class="exp-type">
+            Audit Experience
+          </div>
+
+        </div>
+
+        <div class="exp-line last">
+          <div class="exp-dot"></div>
+        </div>
+
+        <div class="exp-card">
+
+          <h3>Audit Trainee</h3>
+
+          <p class="exp-co">
+            <i class="fas fa-building"></i>
+            P.W.F Associate · Gampaha
+          </p>
+
+          <p class="exp-desc">
+
+            Assisted in audit procedures for clients
+            across retail and manufacturing industries.
+
+            <br><br>
+
+            Supported financial statement preparation,
+            bookkeeping, payroll processing and bank
+            reconciliations using QuickBooks.
+
+            <br><br>
+
+            Handled accounts payable activities,
+            including invoice verification, payment
+            processing and preparation of payment vouchers.
+
+          </p>
+
+          <div class="exp-tags">
+            <span>QuickBooks</span>
+            <span>Bookkeeping</span>
+            <span>Financial Statements</span>
+            <span>Bank Reconciliation</span>
+            <span>Payroll</span>
+            <span>Accounts Payable</span>
+            <span>Auditing</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- LEADERSHIP -->
+
+<section class="sec" id="leadership">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">
+      Beyond the Classroom
+    </div>
+
+    <h2 class="sec-title reveal">
+      Leadership & <em>Activities</em>
+    </h2>
+
+    <div class="lead-grid">
+
+
+      <div class="lead-card reveal">
+
+        <div class="lead-top">
+
+          <div class="lead-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+
+          <div class="lead-badge">2026 / 2027</div>
+
+        </div>
+
+        <h3>Executive Board Member</h3>
+
+        <p class="lead-org">
+          <i class="fas fa-university"></i>
+          Association of Information Systems · NSBM
+        </p>
+
+        <p class="lead-desc">
+          Selected as an Executive Board Member of
+          the Association of Information Systems
+          for the 2026/27 term. Contributing to
+          planning and organising university events,
+          workshops and student engagement activities.
+        </p>
+
+        <div class="lead-tags">
+          <span>Leadership</span>
+          <span>Information Systems</span>
+          <span>Event Coordination</span>
+        </div>
+
+      </div>
+
+
+      <div class="lead-card reveal">
+
+        <div class="lead-top">
+
+          <div class="lead-icon">
+            <i class="fas fa-users"></i>
+          </div>
+
+          <div class="lead-badge">2026</div>
+
+        </div>
+
+        <h3>Organising Team Member</h3>
+
+        <p class="lead-org">
+          Sri Lankan Salesforce Ohana · Sri Lanka Dreamin' 2026
+        </p>
+
+        <p class="lead-desc">
+          Selected as a member of the organising team
+          for Sri Lanka Dreamin' 2026, a Salesforce
+          community conference. Contributing to event
+          preparation and coordination alongside the team.
+        </p>
+
+        <div class="lead-tags">
+          <span>Event Coordination</span>
+          <span>Teamwork</span>
+          <span>Community Engagement</span>
+        </div>
+
+      </div>
+
+
+      <div class="lead-card reveal">
+
+        <div class="lead-top">
+
+          <div class="lead-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+
+          <div class="lead-badge">August 2025</div>
+
+        </div>
+
+        <h3>Organising Committee Member</h3>
+
+        <p class="lead-org">
+          Students' Wellbeing Association · NSBM
+        </p>
+
+        <p class="lead-desc">
+          Contributed to organising the LinkUp
+          August Meetup, working with fellow
+          student members on event coordination
+          and organisational activities.
+        </p>
+
+        <div class="lead-tags">
+          <span>Event Planning</span>
+          <span>Teamwork</span>
+          <span>Communication</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="sec" id="contact">
+
+  <div class="wrap">
+
+    <div class="sec-eyebrow reveal">
+      Let's Connect
+    </div>
+
+    <div class="contact-layout">
+
+      <div class="contact-left reveal">
+
+        <h2 class="sec-title">
+          Let's build something
+          <br>
+          <em>meaningful</em> together
+        </h2>
+
+        <p>
+          Open to internship opportunities,
+          project collaborations and professional
+          conversations around business analysis,
+          business intelligence, finance and technology.
+        </p>
+
+        <div class="c-list">
+
+          <a href="mailto:isiniudarahm@gmail.com"
+            class="c-item">
+
+            <div class="ci-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+
+            <div class="ci-body">
+              <span class="ci-label">Email</span>
+              <span class="ci-val">
+                isiniudarahm@gmail.com
+              </span>
+            </div>
+
+            <i class="fas fa-chevron-right ci-arr"></i>
+
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/isini-udara-30b93b283"
+            target="_blank" rel="noopener"
+            class="c-item">
+
+            <div class="ci-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+
+            <div class="ci-body">
+              <span class="ci-label">LinkedIn</span>
+              <span class="ci-val">Isini Udara</span>
+            </div>
+
+            <i class="fas fa-chevron-right ci-arr"></i>
+
+          </a>
+
+
+          <a href="https://github.com/Isini19"
+            target="_blank" rel="noopener"
+            class="c-item">
+
+            <div class="ci-icon">
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="ci-body">
+              <span class="ci-label">GitHub</span>
+              <span class="ci-val">Isini19</span>
+            </div>
+
+            <i class="fas fa-chevron-right ci-arr"></i>
+
+          </a>
+
+
+          <div class="c-item">
+
+            <div class="ci-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+
+            <div class="ci-body">
+              <span class="ci-label">Location</span>
+              <span class="ci-val">Sri Lanka</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CONTACT FORM -->
+
+      <form class="contact-form reveal"
+        id="cForm"
+        action="https://formspree.io/f/mojznloa"
+        method="POST">
+
+        <div class="f-row">
+
+          <div class="fg">
+            <label>Name</label>
+            <input type="text"
+              name="name"
+              placeholder="Your name"
+              required>
+          </div>
+
+          <div class="fg">
+            <label>Email</label>
+            <input type="email"
+              name="email"
+              placeholder="Your email"
+              required>
+          </div>
+
+        </div>
+
+        <div class="fg">
+          <label>Subject</label>
+          <input type="text"
+            name="subject"
+            placeholder="Internship / Collaboration"
+            required>
+        </div>
+
+        <div class="fg">
+          <label>Message</label>
+          <textarea rows="5"
+            name="message"
+            placeholder="Write your message..."
+            required></textarea>
+        </div>
+
+        <button type="submit" class="f-submit">
+          <i class="fas fa-paper-plane"></i>
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="foot-top">
+
+    <div class="foot-brand">
+
+      <div class="foot-logo">
+        IU<span>.</span>
+      </div>
+
+      <p>
+        MIS Undergraduate · Business Analysis · Business Intelligence · Sri Lanka
+      </p>
+
+    </div>
+
+    <div class="foot-nav">
+
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="foot-soc">
+
+      <a href="https://github.com/Isini19"
+        target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/isini-udara-30b93b283"
+        target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="mailto:isiniudarahm@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+  <div class="foot-bottom">
+
+    <p>
+      &copy; 2026 Isini Udara.
+      All rights reserved.
+      Made with <i class="fas fa-heart"></i> in Sri Lanka.
+    </p>
+
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
