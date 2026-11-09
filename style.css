@@ -718,8 +718,12 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
   }
 
   .hero-photo-wrap img {
-    object-position: center 35%;
-  }
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 45%;
+    transform: scale(1.4);
+}
 }
 
 /* =====================================
