@@ -825,4 +825,12 @@ footer { background:var(--bg); border-top:1px solid var(--aline); padding:3rem 5
     }
 }
 
+/* Fix profile photo cropping on mobile */
+@media (max-width: 768px) {
+    .hero-photo-wrap img {
+        transform: scale(1.08);
+        object-position: center 35%;
+    }
+}
+
 }
